@@ -8,3 +8,4 @@ pydicom
 requests
 google-generativeai
 python-dotenv
+python-jose[cryptography]
