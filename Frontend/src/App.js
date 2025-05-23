@@ -138,7 +138,7 @@ const App = () => {
     formData.append('file', file);
 
     try {
-      const response = await fetch('https://dental-ai-vad3.onrender.com/analyze', {
+      const response = await fetch('http://127.0.0.1:8000/analyze', {
         method: 'POST',
         body: formData,
       });
