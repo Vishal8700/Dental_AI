@@ -112,53 +112,7 @@ VITE_API_URL=http://localhost:8000
 
 ```
 ---
-### 📂 Key Components
-Header: Branding and theme toggle
-
-Upload: Drag & drop file upload with preview
-
-Results: Annotated images, charts, and risk levels
-
-Notifications: Toasts for success/errors
-
-Reports: AI-generated recommendations and downloadable reports
-
-###🔐 Security & Validation
-CORS middleware enabled (FastAPI)
-
-File size limit (10MB)
-
-Input format restrictions
-
-API key protected inference endpoints
-
-###⚠️ Limitations
-File size max: 10MB
-
-Supported file types: DICOM, RVG, PNG, JPG, JPEG
-
-Requires internet for Roboflow/Gemini AI APIs
-
-###📌 Future Enhancements
- Batch upload and analysis
-
- Historical comparison view
-
- Multi-language support for reports
-
- PDF report generation
-
- Dental practice system integration
-
-###📜 License
-MIT License (or specify your license)
-
-###👥 Contributors
-Vishal kumar – Developer
-
-[Contributors list if applicable]
-
-###🆘 Support
+🆘 Support
 For issues or contributions, feel free to open an Issue or submit a PR.
 
 Contact: [vishalkumar09837@gmail.com]
