@@ -9,3 +9,4 @@ requests
 google-generativeai
 python-dotenv
 python-jose[cryptography]
+gunicorn==21.2.0
