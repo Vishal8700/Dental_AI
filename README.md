@@ -5,7 +5,10 @@
 ---
 
 ## 🌐 Live Demo
-> (Add your deployment URL here if hosted)
+> (Use This Keys on backend)
+> GEMINI_API_KEY=AIzaSyBRkrGQUwunIVJR3atqS1BvUWgQpifLU8g
+>ROBOFLOW_API_KEY=XIx4bLKjnvzxKe6bCgsT
+
 
 ---
 
