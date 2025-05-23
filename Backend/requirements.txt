@@ -1,9 +1,10 @@
 fastapi
 uvicorn
-pydantic
 python-multipart
+pydantic
 numpy
 opencv-python-headless
 pydicom
 requests
 google-generativeai
+python-dotenv
