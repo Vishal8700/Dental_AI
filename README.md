@@ -111,7 +111,8 @@ Update the backend URL in your API utility or .env file:
 VITE_API_URL=http://localhost:8000
 
 ```
-###📂 Key Components
+---
+### 📂 Key Components
 Header: Branding and theme toggle
 
 Upload: Drag & drop file upload with preview
