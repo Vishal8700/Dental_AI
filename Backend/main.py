@@ -26,10 +26,11 @@ ROBOFLOW_API_KEY = os.getenv("ROBOFLOW_API_KEY")
 # Configure CORS
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=["*"],  # Adjust this in production to specific origins
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
+    expose_headers=["*"]
 )
 
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
