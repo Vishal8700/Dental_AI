@@ -53,28 +53,7 @@
 
 ---
 
-## 📁 Project Structure
-
-dental-ai/
-├── backend/
-│ ├── main.py
-│ ├── utils/...
-│ ├── requirements.txt
-│ └── .env
-├── frontend/
-│ ├── public/
-│ ├── src/
-│ │ ├── components/
-│ │ ├── pages/
-│ │ ├── App.js
-│ │ └── index.js
-│ └── package.json
-
-
-
----
-
-## ⚙️ Backend Setup
+### ⚙️ Backend Setup
 
 ### 🔐 Environment Variables
 Create a `.env` file in the backend root:
@@ -84,14 +63,14 @@ ROBOFLOW_API_KEY=your_roboflow_api_key
 GEMINI_API_KEY=your_gemini_api_key
 ```
 --- 
-##📦 Install Dependencies
+###📦 Install Dependencies
 
 cd backend
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 
-## 🚀 Start API Server
+### 🚀 Start API Server
 
 uvicorn main:app --host 0.0.0.0 --port 8000
 
@@ -118,9 +97,9 @@ uvicorn main:app --host 0.0.0.0 --port 8000
     ...
   }
 }
-## 🌐 Frontend Setup
+### 🌐 Frontend Setup
 
-#📦 Install & Run
+###📦 Install & Run
 ```
 cd frontend
 npm install
@@ -132,7 +111,7 @@ Update the backend URL in your API utility or .env file:
 VITE_API_URL=http://localhost:8000
 
 ```
-#📂 Key Components
+###📂 Key Components
 Header: Branding and theme toggle
 
 Upload: Drag & drop file upload with preview
@@ -143,7 +122,7 @@ Notifications: Toasts for success/errors
 
 Reports: AI-generated recommendations and downloadable reports
 
-#🔐 Security & Validation
+###🔐 Security & Validation
 CORS middleware enabled (FastAPI)
 
 File size limit (10MB)
@@ -152,14 +131,14 @@ Input format restrictions
 
 API key protected inference endpoints
 
-#⚠️ Limitations
+###⚠️ Limitations
 File size max: 10MB
 
 Supported file types: DICOM, RVG, PNG, JPG, JPEG
 
 Requires internet for Roboflow/Gemini AI APIs
 
-#📌 Future Enhancements
+###📌 Future Enhancements
  Batch upload and analysis
 
  Historical comparison view
@@ -170,15 +149,15 @@ Requires internet for Roboflow/Gemini AI APIs
 
  Dental practice system integration
 
-#📜 License
+###📜 License
 MIT License (or specify your license)
 
-#👥 Contributors
+###👥 Contributors
 Vishal kumar – Developer
 
 [Contributors list if applicable]
 
-#🆘 Support
+###🆘 Support
 For issues or contributions, feel free to open an Issue or submit a PR.
 
 Contact: [vishalkumar09837@gmail.com]
